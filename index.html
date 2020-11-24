@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brendan Loomis Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet"
+    type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Header with navigation bar -->
+    <header>
+      <h1>Brendan Loomis</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <div class="wrapper">
+        <!-- Intro section -->
+        <article>
+          <div class="group">
+            <div class="item">
+            <img src="images/brendan.jpg" alt="Brendan Loomis" class="round">
+            </div>
+            <div class="item">
+              <h2 id="hello">Hello! I'm Brendan Loomis.</h2>
+              <p>I am a web developer located in Los Angeles, CA.</p>
+              <p>I create apps and webpages using Javascript, HTML, and CSS.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- About me section -->
+      <article id="about-me">
+        <div class="wrapper">
+          <h2>About Me</h2>
+          <div class="group">
+            <div class="item">
+              <p>I am currently learning web development at Thinkful, and I enjoy it a lot. I love how web development allows me to use code to express my creativity and solve problems. I am also open to collaborating on projects and coding challenges. I can provide the following services:</p>
+              <ul>
+                <li>Creating webpages</li>
+                <li>Creating apps</li>
+                <li>Web design</li>
+              </ul>
+              <p>Please reach out if you are interested in working with me.</p>
+             <p>Besides coding, I love watching movies and television shows, and I'm always looking for new content to watch. I also love music and going to concerts.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+     
+      <!-- Projects section -->
+      <div class="wrapper">
+        <article id="projects">
+          <h2>Projects</h2>
+          <div class="group">
+            <div class="item">
+              <h3>Project Placeholder</h3>
+              <img src="images/coming-soon.jpg" alt="coming soon">
+              <p>Project description will go here. The languages used to create the app will also go here.</p>
+              <p><a href="#">Repo</a> <a href="#">Live</a></p>
+            </div>
+            <div class="item">
+              <h3>Project Placeholder</h3>
+              <img src="images/coming-soon.jpg" alt="coming soon">
+              <p>Project description will go here. The languages used to create the app will also go here.</p>
+              <p><a href="#">Repo</a> <a href="#">Live</a></p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Contact me section -->
+      <article id="contact-me">
+        <div class="wrapper">
+          <h2>Contact Me</h2>
+          <div class="group">
+            <div class="item">
+              <!-- List of email, LinkedIn, GitHub -->
+              <ul>
+                <li><a href="mailto:brendanloomis@gmail.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/brendan-loomis-6b3328b6/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/brendanloomis" target="_blank">GitHub</a></li>
+              </ul>
+            </div>
+            <div class="item">
+              <!-- Contact Form -->
+              <form action="https://formspree.io/f/xnqodkee" method="post">
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" required>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" required>
+                <label for="message">Message:</label>
+               <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© Brendan Loomis</p>
+    </footer>
+  </body>
+</html>
