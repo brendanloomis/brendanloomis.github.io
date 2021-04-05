@@ -1,6 +1,5 @@
 * {
-  /*color: #DBE4EE;*/
-  color: white;
+  color: #DBE4EE;
 }
 
 body {
@@ -33,10 +32,9 @@ header nav ul {
 }
 
 header nav ul li a {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  /*color: #DBE4EE;*/
-  color: white;
+  color: #DBE4EE;
   margin: 0 20px 0 0;
   font-size: 20px;
 }
@@ -162,7 +160,7 @@ form button {
 }
 
 #about-me, #contact-me {
-  background-color: #81A4CD;
+  background-color: #4d8acf;
   padding: 10px 0;
 }
 
@@ -183,15 +181,6 @@ footer {
   text-align: left;
 }
 
-#contact-me a:link {
-  color: #054A91; 
-}
-#contact-me a:visited {
-  color: #F17300; 
-}
 #contact-me a:hover, p a:hover{
   color: #e7121c; 
-}
-#contact-me a:active, p a:active{
-  color: #F05D5E; 
 }
