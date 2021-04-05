@@ -1,5 +1,6 @@
 * {
-  color: #DBE4EE;
+  /*color: #DBE4EE;*/
+  color: white;
 }
 
 body {
@@ -34,7 +35,8 @@ header nav ul {
 header nav ul li a {
   font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
-  color: #DBE4EE;
+  /*color: #DBE4EE;*/
+  color: white;
   margin: 0 20px 0 0;
   font-size: 20px;
 }
@@ -188,7 +190,7 @@ footer {
   color: #F17300; 
 }
 #contact-me a:hover, p a:hover{
-  color: #F39A9D; 
+  color: #e7121c; 
 }
 #contact-me a:active, p a:active{
   color: #F05D5E; 
